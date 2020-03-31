@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="forget.js"></script>
+</head>
+<body>
+	<div class="container-fluid bg-primary text-white p-3" >
+	 	 	<div class="row">
+	 	 		<div class="col-sm">
+	 	 			<h2 class="text-bold ml-5">facebook</h2>
+	 	 		</div>
+	 	 		<div class="col-sm">
+	 	 			<form class="form-inline">
+	 	 				<label>Email or phone</label><input class="form-control" type="text" >
+	 	 				<label>Password</label><input class="form-control" type="password" >
+	 	 				<button class="btn btn-success">Log in</button>
+	 	 				 
+	 	 			</form>
+	 	 			<a href="forget.html" class="text-white float-right mr-5 mt-2">forget account?</a>
+	 	 		</div>
+	 	 	</div>
+	 	 	</div>
+
+	 	 	<div class="jumbotron">
+	 	 		<div class="shadow-lg card p-5">
+	 	 			<h4 class="card-title">Find Your Account</h4>
+	 	 			<hr>
+	 	 			<div id="place"></div>
+	 	 			<p>Please enter your email address or phone number to search for your account</p>
+	 	 			<input class="form-control" id="number" type="number" placeholder="Phone number">
+	 	 			<div class="d-flex justify-content-end mt-3">
+	 	 				<button onclick="get_submit()" type="button" class="btn btn-primary">Search</button>
+	 	 				<a href="index.html" type="button ml-2"  class="btn btn-secondary">Cancel</a>
+	 	 			</div>
+
+	 	 		</div>
+	 	 	</div>
+</body>
+</html>
